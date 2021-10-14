@@ -2,6 +2,7 @@
 import Work from './pages/Work';
 import Home from './pages/Home';
 import GithubSearch from './pages/GithubSearch';
+import GoogleMap from './pages/GoogleMap';
 
 const routes = [
     {
@@ -20,6 +21,12 @@ const routes = [
         path: "/github-search",
         name: "GithubSearch",
         component: GithubSearch,
+        layout: ""
+    },
+    {
+        path: "/google-map",
+        name: "GoogleMap",
+        component: GoogleMap,
         layout: ""
     }
 ]
