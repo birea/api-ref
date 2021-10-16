@@ -3,6 +3,7 @@ import Work from './pages/Work';
 import Home from './pages/Home';
 import GithubSearch from './pages/GithubSearch';
 import GoogleMap from './pages/GoogleMap';
+import Weather from './pages/Weather';
 
 const routes = [
     {
@@ -27,6 +28,12 @@ const routes = [
         path: "/google-map",
         name: "GoogleMap",
         component: GoogleMap,
+        layout: ""
+    },
+    {
+        path: "/weather",
+        name: "Weather",
+        component: Weather,
         layout: ""
     }
 ]
