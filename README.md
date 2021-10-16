@@ -34,5 +34,8 @@ CoinGecko API Client for Node.js
 /coinpaprika
 Coinpaprika API delivers free & frequently updated market data from the world of crypto: coin prices, volumes, market caps, ATHs, return rates and more.
 
+/random-dog-image
+get random dog image
+
 
 ```

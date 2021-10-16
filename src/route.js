@@ -8,6 +8,7 @@ import TradingChart from './pages/TradingChart';
 import CoinDesk from './pages/CoinDesk';
 import CoinGecko from './pages/CoinGecko';
 import Coinpaprika from './pages/Coinpaprika';
+import RandomDogImage from './pages/RandomDogImage';
 
 const routes = [
     {
@@ -62,6 +63,12 @@ const routes = [
         path: "/coinpaprika",
         name: "Coinpaprika",
         component: Coinpaprika,
+        layout: ""
+    },
+    {
+        path: "/random-dog-image",
+        name: "RandomDogImage",
+        component: RandomDogImage,
         layout: ""
     }
 ]

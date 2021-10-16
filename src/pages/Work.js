@@ -4,12 +4,12 @@ import axios from 'axios';
 // client.getGlobal().then(console.log).catch(console.error);
 const Work = () => {
   useEffect(() => {
-    axios.get('https://www.cryptingup.com/api/markets').then((res) => {
+    axios.get('https://dog.ceo/api/breeds/image/random').then((res) => {
       console.log(res)
     })
 
 
-  }); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div>
       dfdf
