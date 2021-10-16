@@ -17,6 +17,14 @@ Get User and user Repository from github
 google-map-react API
 location search by react-google-autocomplete
 ```
+
 ```weather
 Weather API
+```
+
+```trading-chart
+Trading-Chart using node-binance-api
+```
+```coindesk
+node-coindesk-api
 ```

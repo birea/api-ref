@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import GithubSearch from './pages/GithubSearch';
 import GoogleMap from './pages/GoogleMap';
 import Weather from './pages/Weather';
+import TradingChart from './pages/TradingChart';
+import CoinDesk from './pages/CoinDesk';
 
 const routes = [
     {
@@ -35,7 +37,19 @@ const routes = [
         name: "Weather",
         component: Weather,
         layout: ""
-    }
+    },
+    {
+        path: "/trading-chart",
+        name: "TradingChart",
+        component: TradingChart,
+        layout: ""
+    },
+    {
+        path: "/coindesk",
+        name: "CoinDesk",
+        component: CoinDesk,
+        layout: ""
+    },
 ]
 
 export default routes;
