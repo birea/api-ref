@@ -9,22 +9,20 @@ npm start
 
 baseURL = "http://localhost:3000"
 
-```github-search
+```route
+/github-search
 Get User and user Repository from github
-```
 
-```google-map
+/google-map
 google-map-react API
 location search by react-google-autocomplete
-```
 
-```weather
+/weather
 Weather API
-```
 
-```trading-chart
+/trading-chart
 Trading-Chart using node-binance-api
-```
-```coindesk
+
+/coindesk
 node-coindesk-api
 ```
