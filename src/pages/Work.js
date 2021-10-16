@@ -6,7 +6,7 @@ const Work = () => {
     coindesk.getCurrentPrice().then(function (data) {
       console.log(data)
     })
-  });
+  }); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div>
       dfdf

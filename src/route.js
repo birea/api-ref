@@ -6,6 +6,7 @@ import GoogleMap from './pages/GoogleMap';
 import Weather from './pages/Weather';
 import TradingChart from './pages/TradingChart';
 import CoinDesk from './pages/CoinDesk';
+import CoinGecko from './pages/CoinGecko';
 
 const routes = [
     {
@@ -50,6 +51,12 @@ const routes = [
         component: CoinDesk,
         layout: ""
     },
+    {
+        path: "/coingecko",
+        name: "CoinGecko",
+        component: CoinGecko,
+        layout: ""
+    }
 ]
 
 export default routes;

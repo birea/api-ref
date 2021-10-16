@@ -7,7 +7,7 @@ const CoinDesk = () => {
     coindesk.getCurrentPrice().then((data) => {
       console.log(data.bpi)
     })
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div>

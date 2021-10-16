@@ -25,4 +25,9 @@ Trading-Chart using node-binance-api
 
 /coindesk
 node-coindesk-api
+Bitcoin price index
+
+/coingecko
+coingecko-api
+CoinGecko API Client for Node.js
 ```
