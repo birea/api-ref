@@ -7,6 +7,7 @@ import Weather from './pages/Weather';
 import TradingChart from './pages/TradingChart';
 import CoinDesk from './pages/CoinDesk';
 import CoinGecko from './pages/CoinGecko';
+import Coinpaprika from './pages/Coinpaprika';
 
 const routes = [
     {
@@ -55,6 +56,12 @@ const routes = [
         path: "/coingecko",
         name: "CoinGecko",
         component: CoinGecko,
+        layout: ""
+    },
+    {
+        path: "/coinpaprika",
+        name: "Coinpaprika",
+        component: Coinpaprika,
         layout: ""
     }
 ]
