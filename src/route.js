@@ -1,5 +1,4 @@
 // core components for Admin layout
-import Work from './pages/Work';
 import Home from './pages/Home';
 import GithubSearch from './pages/GithubSearch';
 import GoogleMap from './pages/GoogleMap';
@@ -11,12 +10,6 @@ import Coinpaprika from './pages/Coinpaprika';
 import RandomDogImage from './pages/RandomDogImage';
 
 const routes = [
-    {
-        path: "/work",
-        name: "Work",
-        component: Work,
-        layout: ""
-    },
     {
         path: "/home",
         name: "Home",
